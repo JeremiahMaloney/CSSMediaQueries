@@ -1,7 +1,59 @@
 /* ----------------------------------------
 
 Styles for Media Queries Practice Exercise
-Author: Your Name Here 
+Author: Jeremiah Maloney
 
 ----------------------------------------- */
+
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: blueviolet;
+    }
+        
+}
+@media screen and (min-width: 481px) and (max-width: 1024px) {                  
+    body {
+        background-color: blue;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    body {
+        background-color: orange;
+    }
+}
+@media screen and (min-width: 1024px)  {
+    body {
+        background-color: grey;
+    }
+}   
+.mrsandman {display: flex;
+    flex-wrap: wrap;
+    color: blue;
+    justify-content: space-around;
+    align-content: stretch;
+}
+.mrsandman2 {
+    border: 5px solid black;
+}
+.box1 {
+    width: 100% ;height: 24.75%; }
+.box2 {
+    width: 32.85% ;height: 24.75%; }
+.box3 {
+    width: 32.85% ;height: 24.75%; }
+.box4 {
+    width: 32.85% ;height: 24.75%; }
+.box5 {
+    width: 49.5% ;height: 24.75%; }
+.box6 {
+    width: 49.5% ;height: 24.75%; }
+.box7 {
+    width: 24.75% ;height: 24.75%; }
+.box8 {
+    width: 24.75% ;height: 24.75%; }
+.box9 {
+    width: 24.75% ;height: 24.75%; }   
+.box10 {
+    width: 24.75% ;height: 24.75%; }
 
